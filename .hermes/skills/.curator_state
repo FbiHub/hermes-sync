@@ -1,0 +1,9 @@
+{
+  "last_report_path": "/home/fabianogori/.hermes/logs/curator/20260621-064201",
+  "last_run_at": "2026-06-21T06:42:01.187139+00:00",
+  "last_run_duration_seconds": 21.755352,
+  "last_run_summary": "auto: no changes; llm: Based on the current profile list, you only have the `default` profile configured. I have completed the consolidation pass, merging narrow coding-agent skills into broad class-level umbrellas, and organizing maintenance and troubleshooting …\narchived 4 skill(s):\n  • codex → claude-code\n  • hermes-gateway-troubleshooting → hermes-agent\n  • kanban-worker → kanban-orchestrator\n  • opencode → claude-code\nfull report: hermes curator status\nkeep an umbrella stable: hermes curator pin claude-code",
+  "last_run_summary_shown_at": "2026-06-14T06:04:49.017518+00:00",
+  "paused": false,
+  "run_count": 3
+}
