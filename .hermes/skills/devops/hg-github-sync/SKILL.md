@@ -27,7 +27,8 @@ Ensures system state persistence (Memory, User Config, Skills) by pushing to the
 ## Pitfalls
 - Ensure git is initialized in the target directory (check for `.git` and run `git init` if missing).
 - **Verify Repository Integrity:** Before staging, confirm the repository is healthy and inside a valid work tree using `git rev-parse --is-inside-work-tree`. If this returns false despite the existence of `.git`, the index is likely corrupted; avoid destructive `reset --hard` operations without a backup.
-- **Path Handling in Git:** When executing git operations from `root`, always use explicit file paths or specific subdirectories if `git add .` fails to resolve, avoiding accidental inclusion of large untracked files or transient system caches. Use `git add <file> ...` instead of `git add .` for critical configuration files.
+- **Path Handling in Git:** When executing git operations from `root`, always use explicit file paths for critical configuration files (e.g., `git add /home/fabianogori/user.md /home/fabianogori/.hermes/skills/ ...`) because `git add .` often includes unwanted system files. 
+- **Embedded Repository Conflict:** If a subdirectory (e.g., `.hermes/`) contains its own `.git` directory, git will flag it as an "embedded git repository" and ignore its inner content during a root commit. To recover trackability of these files, temporarily move or rename the embedded repository's `.git` folder (e.g., `mv .hermes/.git .hermes/.git-embedded-backup`) before staging.
 - **Authentication/Connectivity:** If git operations fail:
     1. Verify current remote URL via `git remote -v`.
     2. Check repository existence using `gh repo list`.
