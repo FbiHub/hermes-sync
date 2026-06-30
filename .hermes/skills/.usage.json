@@ -155,19 +155,6 @@
     "use_count": 0,
     "view_count": 0
   },
-  "codebase-inspection": {
-    "archived_at": null,
-    "created_at": "2026-06-14T06:04:49.559182+00:00",
-    "created_by": null,
-    "last_patched_at": null,
-    "last_used_at": null,
-    "last_viewed_at": null,
-    "patch_count": 0,
-    "pinned": false,
-    "state": "active",
-    "use_count": 0,
-    "view_count": 0
-  },
   "comfyui": {
     "archived_at": null,
     "created_at": "2026-06-14T06:04:49.572025+00:00",
@@ -259,31 +246,18 @@
     "use_count": 0,
     "view_count": 0
   },
-  "github-nightly-sync": {
-    "archived_at": null,
-    "created_at": "2026-06-15T18:05:10.453415+00:00",
-    "created_by": null,
-    "last_patched_at": null,
-    "last_used_at": "2026-06-15T18:05:10.458036+00:00",
-    "last_viewed_at": "2026-06-15T18:05:10.453436+00:00",
-    "patch_count": 0,
-    "pinned": false,
-    "state": "active",
-    "use_count": 1,
-    "view_count": 1
-  },
   "github-umbrella": {
     "archived_at": null,
     "created_at": "2026-06-15T18:05:12.687333+00:00",
     "created_by": null,
-    "last_patched_at": "2026-06-15T18:05:29.087889+00:00",
-    "last_used_at": "2026-06-15T18:05:12.692795+00:00",
-    "last_viewed_at": "2026-06-15T18:05:12.687367+00:00",
-    "patch_count": 2,
+    "last_patched_at": "2026-06-28T06:43:07.899232+00:00",
+    "last_used_at": "2026-06-28T06:42:52.197141+00:00",
+    "last_viewed_at": "2026-06-28T06:42:52.189710+00:00",
+    "patch_count": 6,
     "pinned": false,
     "state": "active",
-    "use_count": 1,
-    "view_count": 1
+    "use_count": 3,
+    "view_count": 3
   },
   "google-workspace": {
     "archived_at": null,
@@ -329,26 +303,13 @@
     "created_at": "2026-06-12T19:38:05.101872+00:00",
     "created_by": null,
     "last_patched_at": null,
-    "last_used_at": "2026-06-21T06:42:05.057011+00:00",
-    "last_viewed_at": "2026-06-21T06:42:05.036556+00:00",
+    "last_used_at": "2026-06-28T06:42:56.764230+00:00",
+    "last_viewed_at": "2026-06-28T06:42:56.757909+00:00",
     "patch_count": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 3,
-    "view_count": 3
-  },
-  "hg-github-sync": {
-    "archived_at": null,
-    "created_at": "2026-05-31T21:18:19.887546+00:00",
-    "created_by": null,
-    "last_patched_at": "2026-06-25T23:01:50.550138+00:00",
-    "last_used_at": "2026-06-27T23:00:42.937013+00:00",
-    "last_viewed_at": "2026-06-25T23:01:47.518458+00:00",
-    "patch_count": 17,
-    "pinned": false,
-    "state": "active",
-    "use_count": 43,
-    "view_count": 15
+    "use_count": 4,
+    "view_count": 4
   },
   "himalaya": {
     "archived_at": null,

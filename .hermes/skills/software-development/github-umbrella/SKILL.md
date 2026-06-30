@@ -22,8 +22,9 @@ Creation, triage, labeling, and project management for issues.
 ## 4. Repository Operations
 Creation, forking, cloning, releases, secrets management, and actions workflows.
 
-## 5. Code Review
-Systematic code review patterns for local changes and open PRs.
+## 7. GitHub Synchronization & Backup
+Automate repository syncs, daily pushes, and machine-agnostic survival backups of configuration and skills. See [references/sync-backup.md](references/sync-backup.md).
+
 
 ## Troubleshooting & Pitfalls
 - See [references/troubleshooting.md](references/troubleshooting.md) for handling port conflicts, OOM errors, and cross-origin authentication issues specific to the workspace.
